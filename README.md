@@ -11,4 +11,4 @@ Addon | Page | Community or Enterprise
 ----- | ---- | -----------------------
 orbeon | https://www.odoo.com/apps/modules/10.0/orbeon | Community
 orbeon_project | https://www.odoo.com/apps/modules/10.0/orbeon_project | Community
-project_type | https://www.odoo.com/apps/modules/10.0/project_type/ | Community
+
