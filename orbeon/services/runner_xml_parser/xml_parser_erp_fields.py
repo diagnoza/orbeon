@@ -1,3 +1,23 @@
+# -*- coding: utf-8 -*-
+##############################################################################
+# Author: Open2Bizz (www.open2bizz.nl)
+# Employee: Dennis Ochse
+# Date: 2019-05-02
+#
+# GNU LESSER GENERAL PUBLIC LICENSE
+# Version 3, 29 June 2007
+#
+# Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+# Everyone is permitted to copy and distribute verbatim copies
+# of this license document, but changing it is not allowed.
+#
+#
+# This version of the GNU Lesser General Public License incorporates
+# the terms and conditions of version 3 of the GNU General Public
+# License, supplemented by the additional permissions listed in the following URL:
+# https://www.gnu.org/licenses/lgpl.txt.
+#
+##############################################################################
 import copy
 import logging
 import re
@@ -73,7 +93,7 @@ class XmlParserERPFields(XmlParserBase):
         if not self.has_erp_fields():
             return
 
-        for tagname, erp_field_obj in self.erp_fields.iteritems():
+        for tagname, erp_field_obj in self.erp_fields.items():
             target_object = self.res_object
 
             # copy model_fields because of alternations in the while-loop reducer below.
